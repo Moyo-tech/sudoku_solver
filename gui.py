@@ -1,5 +1,8 @@
 from tkinter import *
+
+from matplotlib.pyplot import text
 from solver import solver
+import pprint
 
 root = Tk()
 root.title("Sudoku Solver") # title
@@ -48,10 +51,14 @@ def clearValues():
         for col in range(1 , 10):
             cell = cells[(row, col)]
             cell.delete(0, "end")
+    
+
+            #Undo, 
 
 #To input the sudoku 
 def getValues():
     board = []
+    count = 0
     errLabel.configure(text="")
     solvedLabel.configure(text="")
     for row in range(2, 11):
@@ -60,11 +67,17 @@ def getValues():
             val = cells[(row, col)].get()
             if val == "":
                 rows.append(0)
+                count  += 1
             else:
                 rows.append(int(val))
 
-        board.append(rows)
-    updateValues(board)
+        board.append(rows) 
+    pprint.pprint(board)  
+    if count == 81:
+        errLabel.configure(text="Please input some values")
+    else:
+        updateValues(board)   
+
 
 btn = Button(root, command=getValues, text="Solve", width=10)
 btn.grid(row=20, column=1, columnspan=5, pady=20)

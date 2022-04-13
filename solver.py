@@ -59,6 +59,7 @@ def solveSudoku(sudoku, row, col):
     return False  
 
 
+
 #Function to return the solved sudoku if it is solvable
 def solver(sudoku):
     global count
