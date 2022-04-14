@@ -81,4 +81,22 @@ From the code above, we can see that the function is correct since each time the
 
 - If it is not safe to assign a value in a position then we backtrack `sudoku[row][col] = 0 ` to the previous position the previous value we assigned and try other numbers this helps to save time 
 
+## Efficiency of the Algorithm
+
+In this section, we will be analysing the efficiency of the algorithm we used while implementing our project: The Backtracking Algorithm and the choice of Data Structure which is Recursion.
+
+- Time Complexity: 
+The time complexity applied in this algorithm is `O (n ^ m) `where the range of possibilities for each grid (that is, 9 in the algorithm) is n, whereas the number of blank spaces is m. Designing a grid size of N*N where N is 9, a perfect square, the recurrence equation is denoted as:
+                                  T(M) = 9*T(M-1) + O (1)                         { for N, when M = N*N and T(N) is the running time of the solution}
+ Solving the recurrence by the backtracking algorithm from a single blank slot yields O(9^M). 
+ 
+ The logic behind this is that If there is only a single unoccupied slot, the program has n number of options to consider, and it must, in the worst-case scenario, exhaust them all. If there are two empty spots, the program must consider n different options for the first spot and n different options for the second spot for each of the first spot options. If there are three places, it has to consider n different options for the first one. 
+ 
+ Each of these options finally result in a puzzle with two vacant locations and `n*n` possible solutions. Additionally, our algorithm executes a depth- first search through all possible solutions of the puzzle by checking for each number from one to nine for the number of squares that need to be filled. It initially checks whether or not it is okay to assign a number to a square and in the case that the number assigned is right, further possibilities are checked with the next column. 
+ 
+ However, before actually assigning a number, we confirm that the same number is not present in the current row, column or 3 by 3 square. in the case that the assignment made was not right, backtracking is performed to check for the next value for a current empty cell and if none of the no.s between 1-9 lead to a solution, the program returns false. The depth of the graph in this case is the no. of squares that need to be filled and with a depth of m and corresponding branch factor of n, determining a solution has a worst case of O (n ^ m).
+ 
+- Space Complexity
+The Data Structure that we used in our algorithm in recursion (Recursive Backtracking). Ideally, the recursion stack, which is N*N levels deep, and in which case we used a 9*9 int array to store all elements of the sudoku, is utilized as an auxiliary space. In the case of our 9*9 sudoku puzzle, all the 81 cells must have assigned valid values, but only one cell is filled at each level. As a result, the space complexity is O(M).
+
 
