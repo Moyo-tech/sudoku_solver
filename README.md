@@ -7,7 +7,7 @@
 - Topister Onyango
 - Eleaanor Wepnog
 
-## Data structure and algorithm used:**
+## Data structure and algorithm used:
 - Data structure: Recursion and 2D arrays
   - We used a recursive data structure because we designed the algorithm in a way that it calls itself, Recursion is the process whereby a function calls itself. We are also storing the matrix of the board, cells and values in a 2D-array
 
@@ -15,12 +15,9 @@
   - Backtracking is an algorithmic technique that aims to use a brute force approach to get all the solutions to a problem. It uses the recursive call to build the solution step by step and find the solution set by increasing the level over time. Essentially, you keep trying numbers in empty spots until there aren't any that are possible, then you backtrack and try different numbers in the previous slots. This is a better optimized algorithm than the naive approach where you just try every number 
   - How It works in simpler logic
       - A digit in the wrong location often quickly shows that the solution is infeasable. With n entries left, if there are no entries, n = 0, left, we are finished, indicate succes;
-otherwise, find a square that is not yet filled, and
-for each digit from 1 to 9,
-place the digit in the digit in that square and see whether the the solution is feasible, and if so call backtracking algorithm recursively, where
-if the algorithm indicates success, we are finished,
-otherwise, try the next digit; and
-if no digit works, there is no solution.
+      - Otherwise, find a square that is not yet filled, and for each digit from 1 to 9. 
+      - Place the digit in the digit in that square and see whether the the solution is feasible, and if so call backtracking algorithm recursively
+      - If the algorithm indicates success, we are finished, otherwise, try the next digit; and if no digit works, there is no solution.
 
 
 **Project Description**
