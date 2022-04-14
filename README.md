@@ -77,7 +77,7 @@ From the code above, we can see that the function is correct since each time the
 
 - After that, we actually check if a value is assigned at the position we want to put it in, for instance of in our puzzle a value is in a position, we check for that and if a value is assigned them if it isn’t empty(if it is greater than 0) then we move to the next column, by recursively calling solve sudoku. 
 
-And if our if statement is wrong( `if sudoku[row][col] > 0`), then we start testing  for each number from 1 to 10 which is that `for loop` there. So as we can see the for loop is correct because we first test if it is safe to assign a number, by calling the isvalid function and putting in the number we are testing, if it is safe we assign the number to that position and we move to the next column, 
+- And if our if statement is wrong( `if sudoku[row][col] > 0`), then we start testing  for each number from 1 to 10 which is that `for loop` there. So as we can see the for loop is correct because we first test if it is safe to assign a number, by calling the isvalid function and putting in the number we are testing, if it is safe we assign the number to that position and we move to the next column, 
 
 - If it is not safe to assign a value in a position then we backtrack `sudoku[row][col] = 0 ` to the previous position the previous value we assigned and try other numbers this helps to save time 
 
