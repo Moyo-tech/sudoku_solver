@@ -1,11 +1,11 @@
 # Project Title: Sudoklver
 
 ## Team Members:
--Moyosore Weke
--Testimony Adeyemi
--Petronalla 
--Topister Onyango
--Eleaanor Wepnog
+- Moyosore Weke
+- Testimony Adeyemi
+- Petronalla 
+- Topister Onyango
+- Eleaanor Wepnog
 
 ## Data structure and algorithm used:**
 - Data structure: Recursion and 2D arrays
