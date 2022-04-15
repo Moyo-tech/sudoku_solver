@@ -96,7 +96,7 @@ The time complexity applied in this algorithm is `O (n ^ m) `where the range of 
  
  However, before actually assigning a number, we confirm that the same number is not present in the current row, column or 3 by 3 square. in the case that the assignment made was not right, backtracking is performed to check for the next value for a current empty cell and if none of the no.s between 1-9 lead to a solution, the program returns false. The depth of the graph in this case is the no. of squares that need to be filled and with a depth of m and corresponding branch factor of n, determining a solution has a worst case of O (n ^ m).
  
-### Space Complexity
+### Space Complexity:
 The Data Structure that we used in our algorithm in recursion (Recursive Backtracking). Ideally, the recursion stack, which is N*N levels deep, and in which case we used a 9*9 int array to store all elements of the sudoku, is utilized as an auxiliary space. In the case of our 9*9 sudoku puzzle, all the 81 cells must have assigned valid values, but only one cell is filled at each level. As a result, the space complexity is O(M).
 
 

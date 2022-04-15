@@ -1,19 +1,8 @@
-from glob import glob
-from sqlite3 import Row
-from textwrap import wrap
 from tkinter import *
-from tkinter import font
-from tkinter.tix import TEXT
-from turtle import st
-from click import style
-
-from matplotlib.pyplot import text
-from numpy import WRAP
-from solver import solver
+from solver import mainSolver
 import pprint
 
 root = Tk()
-# root.minsize(height=455, width=450)
 root.geometry("455x450")
 root.title("Sudoku Instructions") 
 root.option_add('*Font', 'Montserrat ') 
@@ -23,7 +12,7 @@ def tab1():
     
     def tab2():
         root = Tk()
-        root.title("Sudoku Solver") # title
+        root.title("Sudoklver") # title
         root.option_add('*Font', 'Montserrat ')  # to change text font
         root.geometry("455x450")  # the dimensions of the GUI
         root.configure(bg='#D0D0FF')
@@ -44,18 +33,18 @@ def tab1():
 
         reg = root.register(ValidateNumber)
 
-        def draw3x3Grid(row, column, bgcolor):
+        def design3x3Grid(row, column, bgcolor):
             for i in range(3):
                 for j in range(3):
                     e = Entry(root, width=5, bg=bgcolor, justify="center", validate="key", validatecommand=(reg, "%P"))
                     e.grid(row=row+i+1, column=column+j+1, sticky="nsew", padx=1, pady=1, ipady=5)
                     cells[(row+i+1, column+j+1)] = e
 
-        def draw9x9Grid():
+        def design9x9Grid():
             color = "#ffffff"
             for rowNo in range(1, 10, 3):
                 for colNo in range(0,9,3):
-                    draw3x3Grid(rowNo, colNo, color)
+                    design3x3Grid(rowNo, colNo, color)
                     if color == "#ffffff":
                         color = "#ffffd0"
                     else:
@@ -105,7 +94,7 @@ def tab1():
 
         #Updates the cells and displays the solution of sudoku 
         def updateValues(s):
-            sol = solver(s) #sol = solution
+            sol = mainSolver(s) #sol = solution
             if sol != "no":
                 for rows in range(2, 11):
                     for col in range(1, 10):
@@ -116,18 +105,14 @@ def tab1():
                 errLabel.configure(text="No solution exists for this sudoku Check for same numbers in same row column or grid")
  
 
-        draw9x9Grid()
+        design9x9Grid()
         root.mainloop()
 
     label1 = Label(root, text='WELCOME:)', font=('Montserrat', 13), relief='ridge', padx=4, pady=5, borderwidth=5)
     label1.pack()
     button1 = Button(root, text='START', font=('Montserrat', 14), command=tab2)
     button1.pack(side=BOTTOM, pady=5, padx= 3)
-    
 
-    # instruction.grid(columnspan= 3)
-
-   
 
     text = Text(root, wrap="word",spacing2=5, spacing3=5, background="#ffffd0", xscrollcommand= set())
     text.tag_configure('text_body', font=('Montserrat', 13), lmargin1=0, lmargin2=0)

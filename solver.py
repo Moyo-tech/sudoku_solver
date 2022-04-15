@@ -1,7 +1,5 @@
-from tkinter import *
 
-
-N = 9 #Variable to hold the number of rows and colums
+noRowsCol = 9 #Variable to hold the number of rows and colums
 
 count = 0
 
@@ -12,8 +10,7 @@ def isValid(sudoku, row, col, num):
     for i in range(9):  #Checking if the same number exists in same row
         if sudoku[row][i] == num:
             return 
-            
-
+        
     for i in range(9): #Checking if the same number exists in the same column, returning False if it does
         if sudoku[i][col] == num:
             return 
@@ -39,11 +36,11 @@ def solveSudoku(sudoku, row, col):
         return False
     
     #Base condition because we would be using Recursion 8 9
-    if row== N - 1 and col == N:
+    if row== noRowsCol  - 1 and col == noRowsCol :
         return True
 
 #Moving to the next row when last column is reached
-    if col == N:
+    if col == noRowsCol :
         row += 1
         col = 0
 
@@ -52,7 +49,7 @@ def solveSudoku(sudoku, row, col):
         return solveSudoku(sudoku, row, col + 1) #We test out the next column
 
     #Checking for each number from 1 to 9
-    for num in range(1, N + 1):
+    for num in range(1, noRowsCol  + 1):
         if isValid(sudoku, row, col, num): #Check if it is okay to assign the number 
             sudoku[row][col] = num #Assigning the number in the sudoku
             
@@ -61,8 +58,7 @@ def solveSudoku(sudoku, row, col):
                 return True
        
         #If our assumption was wrong we would backtrack(by assigning 0 in the given position) and check for the next value 
-        #Backtracking 
-        sudoku[row][col] = 0 
+        sudoku[row][col] = 0   #Backtracking 
      
    
     return False  
@@ -70,15 +66,13 @@ def solveSudoku(sudoku, row, col):
 
 
 #Function to return the solved sudoku if it is solvable
-def solver(sudoku):
+def mainSolver(sudoku):
     global count
     result = solveSudoku(sudoku, 0, 0)
-
     #If condition to check if sudoku is solvable starting from 0th row and 0th column
     if result: 
         count = 0
         return sudoku
-
     else:
         count = 0
         return "no"
