@@ -1,4 +1,4 @@
-# Project Title: Sudoklver
+# Project Title: Sudoku solver
 
 ## Team Members:
 - Moyosore Weke
@@ -34,6 +34,31 @@ The restrictions are as follows:
   - Each puzzle has a unique solution
 
 Each Sudoku puzzle begins with some cells filled in. These numbers are chosen such that there is a unique solution to the Sudoku.The Sudoklver(sudoku solver) aims to help players of sudoku's solve this puzzel in a much shorter time that they would have spent. Also most people who play the sudoku games which are at the back of the newspaper often have to wait for the results to come in the next day so therefore the solver will be there for them to easily to check their solutions early to know if there are right or wrong.
+
+## Solution
+
+The objective of our Sudoku puzzle project is that the user fills in every row/column slot with values between 1-9. As a result of the objective fulfillment the Sudoku puzzle game increases the critical thinking capability of the user, enhances human brain health, improves logical thinking, helps develop problem solving skills and uses of clues which describes how difficult the game is. For instance, 17-clue puzzles are more difficult than 30-clue puzzles. In such a way that the user simply tries filling each blank square with the numbers from 1 to 9 until a valid solution is found. Our app is user-friendly to everyone who wants to play Sudoku puzzles and it is not restricted to anyone. 
+
+The solution steps includes:
+
+Step 1: The user has to make a list of all the empty slots.
+
+Step 2: Then select a slot and place a number between 1 and 9, in it and validate the subgrids, that is, the horizontal row, vertical column and the 3 by 3 grid associated with that slot.
+
+Step 3: If any of the constraints fail, that is:
+
+Cell constraint: each cell can only be filled with one number.
+
+Row constraint: a number may only occur once in each row.
+
+Column constraint: a number may only occur once in each column.
+
+Box constraint: a number may occur only once in each box.
+
+Leave that solution by backtracking to the previous state and repeat the second step with the next number. Otherwise, check if the goal is achieved.
+
+Step 4: If a solution is found, stop searching and it reports success. Otherwise repeat step 2 to 4 recursively.
+
 
 ## Correctness of Algorithm
 In our project Sudoklver(Sudoku Solver0, we are using the Backtracking Algorithm to develop a working solution. Here we are going to check the correctness of that Algorithm, we are going to take a closer look at the **recursion and the backtracking algorithm** which is implemented by the `solveSudoku()` function.
