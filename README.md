@@ -160,7 +160,8 @@ Our Sudoku application is user-friendly as it is integrated with a Graphical Use
 
 ### Running as an exe file
 If you wish to play the sudoku without having python download:
-- Go to the code section on this repo ` <>code` click the file named `sudoklver.exe`
+- Go to the code section on this repo ` <>code` click the folder named `exe`
+- Click the file named `sudoklver.exe `.
 - You would see a `download` option, click on it and the application would start downloading
 - You can then open the application from wherever it is stored after downloading
 - There might be some antivirus blocking ingnore this as the file is safe :wink:
