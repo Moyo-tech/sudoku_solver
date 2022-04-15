@@ -1,4 +1,4 @@
-# Project Title: Sudoklver
+# Project Title: Sudoku solver
 
 ## Team Members:
 - Moyosore Weke
