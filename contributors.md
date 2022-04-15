@@ -7,7 +7,7 @@ Testimony Adeyemi worked on the GUI(Graphical User Interface). Using python’s 
 Petronalla Ogolla  worked on The efficiency of the algorithm an analysis of the number of resources that were used in our algorithm as well as the time and space complexity our algorithm takes to produce a solution. She also worked on the User Guideline on how to  Run the program - she explicitly explained what a user needs to set up his/her Development Environment and  the Instructions to cloning and Running the project.
 
 ## Eleanor Wepngong
-Eleanor worked on the project description where she was basically talking about how a sudoku game came about, where it was first played, the rules to follow when playing the game. The project description also gave a reason to why there was a need for a solver and these was because most players who played the sudoku in the news players had to wait till the next day before getting the solution. She also worked on the data structures and algorithm used in the project.
+Eleanor worked on the project description where she was basically talking about the origin and rules to follow when playing the game. The project description also gave a reason to why there was a need for a solver and these was because most players who played the sudoku in the news players had to wait till the next day before getting the solution. She also worked on the data structures and algorithm used in the project.
 
 ## Topister Onyango
 Searched the web for information. Took part in the testing phase  to check if the numbers were feasible and identified a bug which we fixed as a group. Wrote the heading solution documentation in the README.md file as well as identified the beneficiaries of the app.
