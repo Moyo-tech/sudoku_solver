@@ -1,15 +1,19 @@
-# Contributors Of the Porject 
+# Contributors Of the Project 
 
-### Testimony Adeyemi
+## Testimony Adeyemi
+Testimony Adeyemi worked on the GUI(Graphical User Interface). Using python’s Tkinter to build an interface where the users can input their Sudoku problem and also receive the solution
 
-### Petronalla  Ogolla
-Petronalla Ogolla  worked on The efficiency of the algorithm an analysis of the number of resources that were used in our algorithm as well as the time and space complexity our algorithm takes to produce a solution. and b)User Guideline on how to  Run the program - Here, I explicitly explained what a user needs to set up his/her Development Environment and  the Instructions to cloning and Running the project.
+## Petronalla  Ogolla
+Petronalla Ogolla  worked on The efficiency of the algorithm an analysis of the number of resources that were used in our algorithm as well as the time and space complexity our algorithm takes to produce a solution. She also worked on the User Guideline on how to  Run the program - she explicitly explained what a user needs to set up his/her Development Environment and  the Instructions to cloning and Running the project.
 
-### Eleanor Wepngong
+## Eleanor Wepngong
 
-### Topister Onyango
+## Topister Onyango
+Searched the web for information. Took part in the testing phase  to check if the numbers were feasible and identified a bug which we fixed as a group. Wrote the heading solution documentation in the README.md file as well as identified the beneficiaries of the app.
 
-### Moyosore Weke
+## Moyosore Weke
+Moyosore worked in building the algorithm for the sudoku solver, by using the backtracking algorithm and recursive data structure she was able to design an algorithm and solution that follows the rules of sudoku and is able to solve sudoku in less than 1 min.
+
 
 # Contributing to Sudoklver
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
