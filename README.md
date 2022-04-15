@@ -41,13 +41,13 @@ The objective of our Sudoku puzzle project is that the user fills in every row/c
 
 ### Beneficiaries of the App 
 Our app is user-friendly to everyone who wants to play Sudoku puzzles and it is not restricted to anyone. 
-    - **Kids**: Sudoku is a puzzle with simple, easy to understand rules that any kid can try. The need to engage in logical thinking to fill the grid correctly plus the process of trial and error they must apply will naturally and unconsciously help to develop their problem-solving skills.
+- **Kids**: Sudoku is a puzzle with simple, easy to understand rules that any kid can try. The need to engage in logical thinking to fill the grid correctly plus the process of trial and error they must apply will naturally and unconsciously help to develop their problem-solving skills.
 
     Furthermore, the challenge of solving what to a kid will seem like an easy and boring game also helps them to engage more intensely to finish it quickly and improves their concentration skills.
 
     These benefits of Sudoku can also help them in other areas and even improve their school performance.
 
-    - **Adults|Youths** : The first time you play an easy Sudoku level, you might find yourself noting down all the candidates for one single cell in order to keep track of your progress. The more challenges you face, the quicker you will drop these notes as your brain will retain the information naturally.
+- **Adults|Youths** : The first time you play an easy Sudoku level, you might find yourself noting down all the candidates for one single cell in order to keep track of your progress. The more challenges you face, the quicker you will drop these notes as your brain will retain the information naturally.
 
     In harder levels, notes will become essential once again, but your memory skills will still be stimulated in different ways. You will become able to remember more complicated strategies and how to apply them without referring to a tutorial. Patterns from previous games will also be memorized and you will find yourself looking for the opportunity to apply them once again.This would help improve the memory of adults 
 
