@@ -136,4 +136,61 @@ The time complexity applied in this algorithm is `O (n ^ m) `where the range of 
 ### Space Complexity:
 The Data Structure that we used in our algorithm in recursion (Recursive Backtracking). Ideally, the recursion stack, which is N*N levels deep, and in which case we used a 9*9 int array to store all elements of the sudoku, is utilized as an auxiliary space. In the case of our 9*9 sudoku puzzle, all the 81 cells must have assigned valid values, but only one cell is filled at each level. As a result, the space complexity is O(M).
 
+## HOW TO RUN
+
+Our Sudoku application is user-friendly as it is integrated with a Graphical User Interface that makes it efficient to use. Therefore, if a user wishes to run the program and test it locally, there are a few things that need to be done to get it up and running.  If the instructions are not followed to the latter, it will not run:
+
+•Our project makes use of the python programming language. Therefore, the first thing you needs to do is to have installed the latest version of python in your machine; Learn more about the latest version of python here: https://www.python.org/downloads/release/python-3102/.
+
+•Otherwise, you can download and install either the pycharm IDE as it automatically comes with a python package or install VS Code and install the python extension with it. Learn more about Pycharm: https://www.jetbrains.com/pycharm/ and VS Code: https://code.visualstudio.com/
+
+•Run the installer and follow the on-screen instructions to install Python.
+
+•Check the box to add Python to environment variables during the installation process. Python will be added to the environment variables, and you will be able to run it from wherever on the machine.
+
+•After that, you will need to run python in immediate mode by typing python keyword in the command line to invoke the interpreter in immediate mode.
+
+•After this, you’ll need to configure a python interpreter. Learn more about interpreters: https://www.jetbrains.com/help/pycharm/configuring-python-interpreter.html
+
+CLONING THE REPOSITORY AND GETTING READY
+If you are using Pycharm, follow the following instructions:
+
+•Choose Git | Clone from the menu bar in the top right.  When you've set up a Git repository for your project, the Git menu appears. This menu is VCS until then.
+
+•Choose GitHub on the left side of the Get from Version Control box.
+
+•Provide the URL of the repository you intend to clone. From the list of all GitHub projects associated with your account and the organization to which your account belongs, you can choose a repository.
+
+•Enter the path to the folder where your local Git repository will be created in the Directory field.
+
+•Select Clone. In the confirmation popup, select Yes to create a project based on these sources. PyCharm will set the Git root mapping to the project root directory automatically.
+
+•If you followed all the steps above, this should bring you back to processing with the application code
+
+•From here, all you need to do is hit run and the game pops up.
+
+Otherwise, If you are using VS Code, follow the following instructions:
+
+•Launch the command palette by entering the key sequence Ctrl + Shift + P 
+•Enter gitcl at the command palette prompt, then select Git: Clone and press Enter.
+•Select clone from GitHub when prompted for the Repository URL, then hit Enter
+•If you're prompted to sign in to GitHub, go ahead and do so
+•Launch azure-samples/js-e2e-express-server in the Repository URL field
+•Select (or create) the local directory where the project will be cloned.
+•Select Open when the notification appears asking if you wish to open the cloned repository.
+•From here, all you need to do is hit run and the game pops up.
+	
+BASIC GUIDE AND RULES OF THE GAME
+ 
+Sudoku is a puzzle game that is played on a 9 × 9 grid. There are 9 "squares" within the rows and columns (made up of 3 x 3 spaces). Ideally, you should fill in the numbers 1-9 in each row, column, and square (9 spaces total), without duplicating any numbers inside the row, column, or square.
+
+•All you need to do is to fill in the values from a sudoku puzzle online and click solve.
+•The program automatically fills in the puzzle with the correct values in each grid.
+•When you are done, you can click clear to delete all the values and enter a new puzzle to solve.
+
+REFERENCES
+
+•JetBrains, 2022. Pycharm Installation Guides and Manage Projects Hosted on Github. Available at: https://www.jetbrains.com/help/pycharm/installation-guide.html [Accessed 14 April 2022; Last modified: 12 April 2022]
+•JetBrains, 2022. Clone a Github Repo for Changes on VS Code. Available at: https://docs.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository?tabs=create-repo-command-palette%2Cinitialize-repo-activity-bar%2Ccreate-branch-command-palette%2Ccommit-changes-command-palette%2Cpush-command-palette [Accessed 14 April 2022; Last modified: 12 August 2021]
+
 
