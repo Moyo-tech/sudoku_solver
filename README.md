@@ -18,7 +18,7 @@ We have made this Readme easier for you to navigate by creating this links:
 - Testimony Adeyemi
 - Petronalla 
 - Topister Onyango
-- Eleaanor Wepnog
+- Eleanor Wepngong
 
 ## Data structure and algorithm used:
 - **Data structure: Recursion and 2D arrays**
