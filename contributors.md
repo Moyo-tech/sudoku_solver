@@ -1,4 +1,4 @@
-# Contributors Of the Porject 
+# Contributors Of the Project 
 
 ### Testimony Adeyemi
 
@@ -7,10 +7,11 @@
 ### Eleanor Wepngong
 
 ### Topister Onyango
+Searched the web for information. Took part in the testing phase  to check if the numbers were feasible and identified a bug which we fixed as a group. Wrote the heading solution documentation in the README.md file as well as identified the beneficiaries of the app.
 
 ### Moyosore Weke
 
-# Contributing to Minesweeper
+# Contributing to Sudoku Puzzle
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
 - Reporting an issue
