@@ -1,17 +1,17 @@
-# Project Title: Sudoklver (Sudoku Solver)
-We have made this readme easier for you to navigate by creating this links:
+# Project Title: Sudoklver (Sudoku Solver) :game_die:
+We have made this Readme easier for you to navigate by creating this links:
 - [Team Introduction](#team-members)
 - [Data Structure and Algorithm Used](#data-structure-and-algorithm-used)
 - [Project Description](#project-description)
 - [Solution](#solution)
     - [Beneficiaries of the App](#beneficiaries-of-the-app )
-    - [Solution Step](#the-solution-steps-includes)
+    - [Solution Steps](#the-solution-steps-includes)
 - [Correctness of the Algorithm](#correctness-of-algorithm)
 - [Efficiency of the Algorithm](#time-complexity)
 - [How to Run](#how-to-run)
     - [As an appliction(.exe)](#running-as-an-exe-file)
     - [Locally on a user's machine](#running-locally-on-the-local-machine)
-    
+
 
 ## Team Members:
 - Moyosore Weke
