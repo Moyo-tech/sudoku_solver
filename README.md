@@ -3,10 +3,9 @@ We have made this readme easier for you to navigate by creating this links:
 - [Team Introduction](#team-members)
 - [Data Structure and Algorithm Used](#data-structure-and-algorithm-used)
 - [Project Description](#project-description)
-    -[]
 - [Solution](#solution)
-    -[Beneficiaries of the App](#beneficiaries-of-the-app )
-    -[Solution Step](#the-solution-steps-includes)
+    - [Beneficiaries of the App](#beneficiaries-of-the-app )
+    - [Solution Step](#the-solution-steps-includes)
 - [Correctness of the Algorithm](#correctness-of-algorithm)
 - [Efficiency of the Algorithm](#time-complexity)
 - [How to Run](#how-to-run)
