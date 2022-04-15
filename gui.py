@@ -5,7 +5,7 @@ import pprint
 root = Tk()
 root.geometry("455x450")
 root.title("Sudoku Instructions")
-root.option_add('*Font', 'Montserrat ')
+root.option_add('*Font', 'Montserrat')
 root.configure(bg='#D0D0FF')
 
 
@@ -14,7 +14,7 @@ def tab1():
     def tab2():
         root = Tk()
         root.title("Sudoklver")  # title
-        root.option_add('*Font', 'Montserrat ')  # to change text font
+        root.option_add('*Font', 'Montserrat ')  #to change text font
         root.geometry("455x450")  # the dimensions of the GUI
         root.configure(bg='#D0D0FF')
 
