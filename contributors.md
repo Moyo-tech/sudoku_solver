@@ -13,7 +13,7 @@ Eleanor worked on the project description where she was basically talking about 
 Searched the web for information. Took part in the testing phase  to check if the numbers were feasible and identified a bug which we fixed as a group. Wrote the heading solution documentation in the README.md file as well as identified the beneficiaries of the app.
 
 ## Moyosore Weke
-Moyosore worked in building the algorithm for the sudoku solver, by using the backtracking algorithm and recursive data structure she was able to design an algorithm and solution that follows the rules of sudoku and is able to solve sudoku in less than 1 min.
+Moyosore worked in building the algorithm for the sudoku solver, by using the backtracking algorithm and recursive data structure she was able to design an algorithm and solution that follows the rules of sudoku, whereby numbers can't occur twice in a column, row or grid, the solution also solves for any kind of sudoku.
 
 
 # Contributing to Sudoklver
