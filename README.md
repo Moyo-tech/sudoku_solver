@@ -37,27 +37,39 @@ Each Sudoku puzzle begins with some cells filled in. These numbers are chosen su
 
 ## Solution
 
-The objective of our Sudoku puzzle project is that the user fills in every row/column slot with values between 1-9. As a result of the objective fulfillment the Sudoku puzzle game increases the critical thinking capability of the user, enhances human brain health, improves logical thinking, helps develop problem solving skills and uses of clues which describes how difficult the game is. For instance, 17-clue puzzles are more difficult than 30-clue puzzles. In such a way that the user simply tries filling each blank square with the numbers from 1 to 9 until a valid solution is found. Our app is user-friendly to everyone who wants to play Sudoku puzzles and it is not restricted to anyone. 
+The objective of our Sudoku puzzle project is that the user fills in every row/column slot with values between 1-9. As a result of the objective fulfillment the Sudoku puzzle game increases the critical thinking capability of the user, enhances human brain health, improves logical thinking, helps develop problem solving skills and uses of clues which describes how difficult the game is. For instance, 17-clue puzzles are more difficult than 30-clue puzzles. In such a way that the user simply tries filling each blank square with the numbers from 1 to 9 until a valid solution is found.
 
-The solution steps includes:
+### Beneficiaries of the App 
+Our app is user-friendly to everyone who wants to play Sudoku puzzles and it is not restricted to anyone. 
+    - **Kids**: Sudoku is a puzzle with simple, easy to understand rules that any kid can try. The need to engage in logical thinking to fill the grid correctly plus the process of trial and error they must apply will naturally and unconsciously help to develop their problem-solving skills.
 
-Step 1: The user has to make a list of all the empty slots.
+    Furthermore, the challenge of solving what to a kid will seem like an easy and boring game also helps them to engage more intensely to finish it quickly and improves their concentration skills.
 
-Step 2: Then select a slot and place a number between 1 and 9, in it and validate the subgrids, that is, the horizontal row, vertical column and the 3 by 3 grid associated with that slot.
+    These benefits of Sudoku can also help them in other areas and even improve their school performance.
 
-Step 3: If any of the constraints fail, that is:
+    - **Adults|Youths** : The first time you play an easy Sudoku level, you might find yourself noting down all the candidates for one single cell in order to keep track of your progress. The more challenges you face, the quicker you will drop these notes as your brain will retain the information naturally.
 
-Cell constraint: each cell can only be filled with one number.
+    In harder levels, notes will become essential once again, but your memory skills will still be stimulated in different ways. You will become able to remember more complicated strategies and how to apply them without referring to a tutorial. Patterns from previous games will also be memorized and you will find yourself looking for the opportunity to apply them once again.This would help improve the memory of adults 
 
-Row constraint: a number may only occur once in each row.
+### The solution steps includes:
 
-Column constraint: a number may only occur once in each column.
+- The user has to make a list of all the empty slots.
 
-Box constraint: a number may occur only once in each box.
+- Then select a slot and place a number between 1 and 9, in it and validate the subgrids, that is, the horizontal row, vertical column and the 3 by 3 grid associated with that slot.
 
-Leave that solution by backtracking to the previous state and repeat the second step with the next number. Otherwise, check if the goal is achieved.
+- If any of the constraints fail, that is:
 
-Step 4: If a solution is found, stop searching and it reports success. Otherwise repeat step 2 to 4 recursively.
+    - Cell constraint: each cell can only be filled with one number.
+
+    - Row constraint: a number may only occur once in each row.
+
+    - Column constraint: a number may only occur once in each column.
+
+    - Box constraint: a number may occur only once in each box.
+
+    - Leave that solution by backtracking to the previous state and repeat the second step with the next number. Otherwise, check if the goal is achieved.
+
+- If a solution is found, stop searching and it reports success. Otherwise repeat step 2 to 4 recursively.
 
 
 ## Correctness of Algorithm
