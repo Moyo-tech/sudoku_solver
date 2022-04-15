@@ -12,6 +12,8 @@ We have made this Readme easier for you to navigate by creating this links:
     - [As an appliction(.exe)](#running-as-an-exe-file)
     - [Locally on a user's machine](#running-locally-on-the-local-machine)
 
+[You can click this link to view our video presentation](https://drive.google.com/file/d/1GDWl3IB39KV6J2O6MzAX1Lqu_fIy6ftG/view?usp=sharing)
+
 
 ## Team Members:
 - Moyosore Weke
