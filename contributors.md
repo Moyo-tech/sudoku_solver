@@ -3,6 +3,7 @@
 ### Testimony Adeyemi
 
 ### Petronalla  Ogolla
+Petronalla Ogolla  worked on The efficiency of the algorithm an analysis of the number of resources that were used in our algorithm as well as the time and space complexity our algorithm takes to produce a solution. and b)User Guideline on how to  Run the program - Here, I explicitly explained what a user needs to set up his/her Development Environment and  the Instructions to cloning and Running the project.
 
 ### Eleanor Wepngong
 
@@ -10,7 +11,7 @@
 
 ### Moyosore Weke
 
-# Contributing to Minesweeper
+# Contributing to Sudoklver
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
 - Reporting an issue
