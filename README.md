@@ -9,6 +9,9 @@ We have made this readme easier for you to navigate by creating this links:
 - [Correctness of the Algorithm](#correctness-of-algorithm)
 - [Efficiency of the Algorithm](#time-complexity)
 - [How to Run](#how-to-run)
+    - [As an appliction(.exe)](#running-as-an-exe-file)
+    - [Locally on a user's machine](#running-locally-on-the-local-machine)
+    
 
 ## Team Members:
 - Moyosore Weke
@@ -150,8 +153,8 @@ The Data Structure that we used in our algorithm in recursion (Recursive Backtra
 
 Our Sudoku application is user-friendly as it is integrated with a Graphical User Interface that makes it efficient to use. Therefore, we have designed the application to run in two ways:
 
-- [As an appliction(.exe)]()
-- [Locally on a user's machine]()
+- [As an appliction(.exe)](#running-as-an-exe-file)
+- [Locally on a user's machine](#running-locally-on-the-local-machine)
 
 ### Running as an exe file
 If you wish to play the sudoku without having python download:
@@ -178,7 +181,7 @@ If you wish to run the program and test it locally, on your machine to see the f
 #### CLONING THE REPOSITORY AND GETTING READY
 If you are using Pycharm, follow the following instructions:
 
--Choose Git | Clone from the menu bar in the top right.  When you've set up a Git repository for your project, the Git menu appears. This menu is VCS until then.
+- Choose Git | Clone from the menu bar in the top right.  When you've set up a Git repository for your project, the Git menu appears. This menu is VCS until then.
 
 - Choose GitHub on the left side of the Get from Version Control box.
 
@@ -195,25 +198,30 @@ If you are using Pycharm, follow the following instructions:
 **Otherwise, If you are using VS Code, follow the following instructions:**
 
     - Launch the command palette by entering the key sequence Ctrl + Shift + P 
+
     - Enter gitcl at the command palette prompt, then select Git: Clone and press Enter.
+
     - Select clone from GitHub when prompted for the Repository URL, then hit Enter
+
     - If you're prompted to sign in to GitHub, go ahead and do so
+
     - Launch azure-samples/js-e2e-express-server in the Repository URL field
+
     - Select (or create) the local directory where the project will be cloned.
+
     - Select Open when the notification appears asking if you wish to open the cloned repository.
+
     - From here, all you need to do is hit run and the game pops up.
 	
-BASIC GUIDE AND RULES OF THE GAME
- 
-Sudoku is a puzzle game that is played on a 9 × 9 grid. There are 9 "squares" within the rows and columns (made up of 3 x 3 spaces). Ideally, you should fill in the numbers 1-9 in each row, column, and square (9 spaces total), without duplicating any numbers inside the row, column, or square.
-
-•All you need to do is to fill in the values from a sudoku puzzle online and click solve.
-•The program automatically fills in the puzzle with the correct values in each grid.
-•When you are done, you can click clear to delete all the values and enter a new puzzle to solve.
+#### BASIC GUIDE
+- All you need to do is to fill in the values from a sudoku puzzle online and click solve.
+- The program automatically fills in the puzzle with the correct values in each grid.
+- When you are done, you can click clear to delete all the values and enter a new puzzle to solve.
 
 ## REFERENCES
 
 - JetBrains, 2022. Pycharm Installation Guides and Manage Projects Hosted on Github. Available at: <https://www.jetbrains.com/help/pycharm/installation-guide.html>[Accessed 14 April 2022; Last modified: 12 April 2022]
-•JetBrains, 2022. Clone a Github Repo for Changes on VS Code. Available at: <https://docs.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository?tabs=create-repo-command-palette%2Cinitialize-repo-activity-bar%2Ccreate-branch-command-palette%2Ccommit-changes-command-palette%2Cpush-command-palette> [Accessed 14 April 2022; Last modified: 12 August 2021]
+
+- JetBrains, 2022. Clone a Github Repo for Changes on VS Code. Available at: <https://docs.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository?tabs=create-repo-command-palette%2Cinitialize-repo-activity-bar%2Ccreate-branch-command-palette%2Ccommit-changes-command-palette%2Cpush-command-palette> [Accessed 14 April 2022; Last modified: 12 August 2021]
 
 
