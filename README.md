@@ -1,4 +1,6 @@
 # Project Title: Sudoku solver
+We have made this readme easier for you to navigate by creating this links:
+[Go to Real Cool Heading section](##Team-Members)
 
 ## Team Members:
 - Moyosore Weke
